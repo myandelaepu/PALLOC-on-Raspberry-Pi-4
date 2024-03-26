@@ -1,0 +1,29 @@
+root@raspberrypi:/sys/kernel/debug/palloc# cat control
+statistics Color:
+ min(ns)/max(ns)/avg(ns)/tot_cnt: 2147483647 0 0 0
+ hit rate: 1059578/1658209 (63 %)
+ avg iter: 0 (0/0)
+ flush cnt: 0
+ balance: 0 | fail: 0
+statistics Normal:
+ min(ns)/max(ns)/avg(ns)/tot_cnt: 2147483647 0 0 0
+ hit rate: 0/0 (0 %)
+ avg iter: 0 (0/0)
+ flush cnt: 0
+ balance: 0 | fail: 0
+statistics Fail:
+ min(ns)/max(ns)/avg(ns)/tot_cnt: 2147483647 0 0 0
+ hit rate: 0/0 (0 %)
+ avg iter: 0 (0/0)
+ flush cnt: 0
+ balance: 0 | fail: 0
+mask: 0xc000
+weight: 2 (bins: 4)
+bits: 14-15
+XOR bits: disabled
+Use PALLOC: enabled
+root@raspberrypi:/sys/kernel/debug/palloc# 
+
+
+
+

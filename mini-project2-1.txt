@@ -1,0 +1,16 @@
+kyrian@raspberrypi:~ $ uname -a
+Linux raspberrypi 5.15.92-v8+ #1 SMP PREEMPT Tue Mar 26 15:41:45 CDT 2024 aarch64 GNU/Linux
+kyrian@raspberrypi:~ $ sudo bash
+root@raspberrypi:/home/kyrian# cd /sys/kernel/debug/palloc/
+root@raspberrypi:/sys/kernel/debug/palloc# ls -al
+total 0
+drwxr-xr-x  2 root root 0 Dec 31  1969 .
+drwxr-x--- 42 root sudo 0 Dec 31  1969 ..
+-rw-------  1 root root 0 Mar 26 18:15 alloc_balance
+-rw-------  1 root root 0 Dec 31  1969 control
+-rw-------  1 root root 0 Dec 31  1969 debug_level
+-rw-------  1 root root 0 Mar 26 18:14 palloc_mask
+-rw-------  1 root root 0 Dec 31  1969 use_mc_xor
+-rw-------  1 root root 0 Mar 26 18:14 use_palloc
+root@raspberrypi:/sys/kernel/debug/palloc# 
+
